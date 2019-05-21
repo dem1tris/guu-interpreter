@@ -20,4 +20,9 @@ public class Operator {
     public List<String> getParameters() {
         return parameters;
     }
+
+    @Override
+    public String toString() {
+        return String.format("--- line %4d: %-5s %s", lineNo, type, parameters);
+    }
 }

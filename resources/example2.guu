@@ -1,0 +1,6 @@
+sub main
+    call main
+    set a 5
+    print a
+
+
